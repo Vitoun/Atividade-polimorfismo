@@ -14,7 +14,13 @@ public class FormasTeste {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        FormasAbstract r1 = new Retangulo(6, 45);
+        FormasAbstract c1 = new Circulo(8);    
+        
+        System.out.println("Area do retangulo: " + r1.calcularArea());
+        System.out.println("Area do circulo: " +  c1.calcularArea());
+        
+    }
     }
     
-}
+

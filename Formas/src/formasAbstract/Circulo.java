@@ -2,14 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package FormasInterface;
+package formasAbstract;
 
 /**
  *
  * @author Admin
  */
-public class Circulo implements Formas {
-    
+public class Circulo extends FormasAbstract {
     private double raio;
     
     public Circulo ( double raio){
@@ -23,7 +22,4 @@ public class Circulo implements Formas {
         area = pi * raio * raio;
         return area;
     }
-    
-    
-    
 }
